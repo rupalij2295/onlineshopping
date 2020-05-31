@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<title>novel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.box
+{
+  
+  box-sizing: inherit;
+  width: 100%;
+  height: 110px;
+  background-color: orange;
+  display: block;
+
+}
+.box img
+{
+  width: 130px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 100px;
+  float: left;
+}
+.box ul
+    {
+      display:inline-flex;
+      list-style:none;
+      border-radius:15px;
+      color:white;
+      margin-top: 30px;
+      
+    }
+     .box ul li
+      {
+        display: block;
+        padding: 20px;
+    
+      }
+       ul li a
+      { text-decoration:none;
+        color:white;
+        font-family: arial;
+        font-size: 15px;
+      }
+       ul li:hover
+      {
+        background:none;
+        border-radius:8px;
+        border-color: black;
+      }
+        .sub-menu
+      {
+        display:none;
+
+      } 
+      ul li:hover .sub-menu
+      {
+        display:block;
+        position:absolute;
+        margin-top:15px;
+        margin-left:-15px;
+        background:orange;
+
+        
+      }
+       ul li:hover .sub-menu ul
+      {
+        width: 500px;
+        height: auto;
+        display:block;
+        margin:10px;
+        background:orange;
+        color: black;
+        border-color: black;
+        float: left;
+      }
+      #more {display: none;}
+.checked {
+  color: orange;
+}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+  <div class="box">
+    <img src="img/wp.png">
+    <ul>
+    <li ><a href="#">Home<i class="fa fa-home"></i></a></li>
+    <li><a href="#"> Browse<i class="fa fa-bars"></i></a>
+      <div class="sub-menu">
+      
+      <ul>
+        <li><a href="#">Humour</a><a href="#" style="margin:50px;">Action</a> 
+        <a href="#">Horror</a><a href="#" style="margin: 50px;">Drama</a></li>
+
+         <li><a href="#">Mystery</a><a href="#" style="margin: 50px;">fiction</a><a href="#">Adventure</a><a href="#" style="margin: 50px;">Romance</a></li>
+
+        <li><a href="#">Thriller</a><a href="#" style="margin:50px">Paranormal</a><a href="#">Poetry</a><a href="#" style="margin: 50px">Motivational</a></li>
+      </ul>
+    </div>
+        <li ><a href="#">Contact</a></li>
+        <li ><a href="#" style="margin-left: 200px;"><i class="fa fa-user-circle" aria-hidden="true" style="font-size:42px; padding: 15px; margin-left: 200px; margin-top: -25px;"></i> Aditi Gudadhe</a></li>
+      
+              </div> 
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="img/a.jpg" alt="Nature" style="width:100%;width: 200px; height: 200px; float: left;margin-top: 20px;margin-left: 20px;">
+    <div class="w3-container" style="float: left; margin-top: 15px;">
+    <a href="#" style="margin-top: 10px;"><b>The Alchemist</b></a>
+  <p>by Paulo Coelho (Goodreads Author),<br> 
+  Alan R. Clarke (Translator),<br>
+  James Noel Smith (Illustrator)<br>
+ <span class="fa fa-star checked" style="margin-left:3px;"></span>
+<span class="fa fa-star checked" style="margin-top: -30px"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span><span style="color: grey; font-size:11px; padding: 3px;">Ratings</span><br>
+  <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ  +</b></button></p>
+
+    </div>
+
+    <div class="w3-container" >
+      <p>Paulo Coelho's enchanting novel has inspired a devoted following around the world. This story, dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd boy named Santiago who travels from his homeland in Spain to the Egyptian desert in search of a treasure buried near the Pyramids.No one knows what the treasure is, or if Santiago will be able to surmount the obstacles in his path. But what starts out as a journey to find worldly goods turns into a discovery of the treasure found within. Lush, evocative, and deeply humane, the story of Santiago is an eternal testament to the transforming power of our dreams and the importance of listening to our hearts.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" id="b1"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>BLOG ENTRY</b></h3>
+      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="img/author.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Paulo Coelho - Author</b></h4>
+      <p>The Brazilian author PAULO COELHO was born in 1947 in the city of Rio de Janeiro. Before dedicating his life completely to literature, he worked as theatre director and actor, lyricist and journalist. In 1986, PAULO COELHO did the pilgrimage to Saint James of Compostella, an experience later to be documented in his book The Pilgrimage. In the following year, COELHO published The Alchemist.</p>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Suggestions for you</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="img/art.png" alt="Image" class="w3-left w3-margin-right" style="width:50px;margin-top: 0px;">
+        <span class="w3-large"><b>The subtle art of not giving F*ck</b></span><br>
+        <span>Mark Manson</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="img/b6.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large"><b>The Magic of thinking Big</b></span><br>
+        <span>David Swartz</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="img/dad.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large"><b>Rich dad poor Dad</b></span><br>
+        <span>Robert T. Kiyosaki</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="img/sub.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large"><b>The Power of subconcious Mind</b></span><br>
+        <span></span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+    </p>
+    </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+<script>
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("b1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+</body>
+</html>

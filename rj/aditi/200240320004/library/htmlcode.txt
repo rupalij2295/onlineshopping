@@ -1,0 +1,329 @@
+1. registration
+
+
+<Doctype html>
+<html>
+<head>
+<title>registration form</title>
+<style>
+body{background:url(yoga1.jpeg);
+	background-size:cover;
+	background-position:center;
+	font-family:san-serif;}
+	
+.loginbox{
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	width:320px;
+	height:550px;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	margin:80;
+	padding:30px;}
+	
+h1{
+	text-align:center;
+	font-size:22px;
+	margin:0;}
+	
+.loginbox input{
+	width:100%;
+	margin-bottom:10px;
+	}
+
+.loginbox input[type="text"],input[type="password"]{
+	border:none;
+	background:transparent;
+	outline:none;
+	border-bottom:1px solid white;
+	color:white;
+	font-size:15px;
+	height:30px;
+	}
+	
+.loginbox input[type="submit"]{
+	border:none;
+	outline:none;
+	font-size:18px;
+	background-color:red;
+	color:white;
+	border-radius:20px;
+	height:35px;}
+	
+.loginbox p{
+	font-size:15;}
+	
+.loginbox input[type="submit"]:hover{
+	cursor:pointer;
+	background:lightskyblue;
+	color:black;}
+
+.loginbox a{
+	font-size:12;
+	color:white;
+	text-decoration:none;}
+	
+.loginbox a:hover{
+	cursor:pointer;
+	background:lightskyblue;
+	color:black;}
+	
+</style>
+</head>
+<body>
+<div class="loginbox">
+<h1>Register Here<h1><br><br>
+<form>
+<input type="text" name="f" placeholder="First Name"><br><br>        
+<input type="text" name="l" placeholder="Last Name"><br><br>
+<input type="text" name="E" placeholder="Email"><br><br>
+<input type="password" name="p" placeholder="Password"><br><br>
+<input type="password" name="cp" placeholder="Confirm Password"><br><br>
+<input type="submit" value="Register"><br>
+
+<p style="font-family:arial">Have already an account? 
+<a href="file:///G:/CDAC.2020/HTML/login.html">Login Here</a></p>
+
+</form>
+</div>
+</body>
+</html>
+
+===================================================================================================================================================
+
+2; login
+
+
+<Doctype html>
+<html>
+<head>
+<title>login form></title>
+<style>
+body{background:url(yoga.jpeg);
+	background-size:cover;
+	background-position:center;}
+	
+.loginbox{
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	width:320px;
+	height:550px;
+	top:50%;
+	left:50%;
+	position:left;
+	box-sizing:border-box;
+	margin-left:20%;
+	padding:30px;}
+	
+.user{
+	height:20%;
+	width:20%;
+	float:left;
+	border-radius:50%;}
+	
+h1{
+	text-align:center;
+	font-size:22px;
+	margin:0;}
+	
+.loginbox input{
+	width:100%;
+	margin-bottom:10px;
+	}
+	
+.loginbox p{
+	font-weight:bold;
+	font-size:18px;}
+	
+.loginbox input[type="text"],input[type="password"]{
+	border:none;
+	background:transparent;
+	outline:none;
+	border-bottom:2px solid white;
+	color:white;
+	font-size:17px;
+	height:30px;}
+	
+.loginbox input[type="submit"]{
+	border:none;
+	outline:none;
+	font-size:18px;
+	background-color:red;
+	color:white;
+	border-radius:20px;
+	height:35px;}
+	
+.loginbox input[type="submit"]:hover{
+	cursor:pointer;
+	background:yellow;
+	color:black;}
+
+.loginbox a{
+	font-size:14;
+	color:white;
+	text-decoration:none;}
+	
+.loginbox a:hover{
+	cursor:pointer;
+	background:yellow;
+	color:black;}
+
+</style>
+</head>
+<body>
+<div class="loginbox">
+<img src="user.jpeg" class="user"><br>
+<h1>Login Here</h1><br><br><br><br>
+<form>
+<p>Username</p>
+<input type="text" name-"u1" placeholder="Enter Username">
+<p>Password</p>
+<input type="password" name="pwd" placeholder="Enter Password">
+<p><input type="submit" name="s" value="Login"></p><br>
+<a href="file:///G:/CDAC.2020/HTML/forgetPass.html"> Forgot Password?</a><br><br>             
+<a href="file:///G:/CDAC.2020/HTML/register.html">Register Yourself</a>
+
+
+</form>
+</div>
+</body>
+</html>
+
+=================================================================================================================================================
+
+3: forgot password
+
+
+<!Doctype html>
+<html>
+<head>
+<title>forgot password</title>
+<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<div class="loginbox">
+<h1>Reset Password</h1><br><br>
+<form>
+<input type="text" name="fp" placeholder="Username"><br><br>
+<input type="password" name="p" placeholder="New Password"><br><br>
+<input type="password" name="fp" placeholder="Confirm New Password"><br><br>
+<input type="submit" value="Confirm"><br><br>
+<a href="file:///G:/CDAC.2020/HTML/login.html">Login</a>
+
+</form>
+</div>
+</body>
+</html>
+
+============================================================================================================
+
+4: gallery
+
+<!Doctype html>
+<html>
+<head>
+<title>image gallery</title>
+<style>
+.gallery{
+	margin:8px;
+	width=200px;
+	float:left;
+	border:2px solid white;}
+	
+.gallery:hover{
+	border:2px solid black;}
+	
+.gallery img{
+	heignt:auto;}
+	
+</style>
+</head>
+<body>
+<div class="gallery">
+<a href="yoga9.jpeg" target="_black"><img src="yoga9.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+<div class="gallery">
+<a href="yoga8.jpeg" target="_black"><img src="yoga8.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+<div class="gallery">
+<a href="yoga7.jpeg" target="_black"><img src="yoga7.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+<div class="gallery">
+<a href="yoga6.jpeg" target="_black"><img src="yoga6.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+<div class="gallery">
+<a href="yoga10.jpeg" target="_black"><img src="yoga10.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+<div class="gallery">
+<a href="yoga2.jpeg" target="_black"><img src="yoga2.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+<div class="gallery">
+<a href="yoga11.jpeg" target="_black"><img src="yoga11.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+<div class="gallery">
+<a href="yoga12.jpeg" target="_black"><img src="yoga12.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+<div class="gallery">
+<a href="yoga13.jpeg" target="_black"><img src="yoga13.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+<div class="gallery">
+<a href="yoga14.jpeg" target="_black"><img src="yoga14.jpeg" alt="yoga" width="230" height="250"></a>
+</div>
+
+
+</body>
+</html>
+
+
+================================================================================================================================
+
+5: contact us
+
+<!Doctype html>
+<html>
+<head>
+<title>contact</title>
+<style>
+body{
+	background-color:mistyrose;}
+
+img{
+	float:left;
+	margin-left:400px;
+	padding:10px;}
+	
+p{
+	color:blue;
+	font-size:30px;}
+	
+pre{
+	margin-left:400px;
+	font-size:20px;}
+	
+</style>
+</head>
+<body>
+<td><img src="contact1.jpeg" alt="contact" width=100 height=100</td><br>
+<p>CONTACT US</p><br><br>
+
+<pre>Website              : www.thehouseofyoga.com</pre>
+<pre>Contact Number       : 9960686577</pre>
+<pre>                     : 9956745976</pre>
+<pre>Gmail                : sayalimankar123@gmail.com</pre>
+</body>
+</html>
+
+================================================================================================
+
